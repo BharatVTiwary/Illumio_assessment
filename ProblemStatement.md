@@ -1,5 +1,5 @@
-#Coding Assessment
-##Description: 
+# Coding Assessment
+## Description: 
 
 Write a program that can parse a file containing flow log data and maps each row to a tag based on a lookup table. The lookup table is defined as a csv file, and it has 3 columns, dstport,protocol,tag.   The dstport and protocol combination decide what tag can be applied.   
 
@@ -55,7 +55,7 @@ Port.   Protocol. Count
 443.  tcp       1
 ```
  
-###Requirement details: 
+### Requirement details: 
 
 - Input file as well as the file containing tag mappings are plain text (ascii) files  
 - The flow log file size can be up to 10 MB 
